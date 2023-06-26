@@ -1,0 +1,1700 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(0, 0, 0);
+    font-family:  Helvetica;
+}
+.bg-img img{
+    height:570px;
+    width: 100%;
+    object-fit: cover;
+}
+.nav{
+    background-color: transparent;
+    width: 370px;
+    height: 20px;
+    position: absolute;
+    top: 27px;
+   left: 900px;
+}
+.nav button{
+    font-weight:100;
+    font-size: 18px;
+    font-family:  Helvetica;
+    padding: 0px 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(219 219 219);
+}
+.mid-text{
+    position: absolute;
+    top:220px;
+    left: 650px;
+    background-color: transparent;
+}
+.mid-text img{
+    width: 280px;
+}
+.mid-text2{
+    color:rgb(241 237 237);
+    position: absolute;
+    top: 320px;
+    left: 520px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 100;
+}
+.container{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+.container .headline{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.container .description p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.states-row1{
+    margin-top: 70px;
+    display: flex;
+    justify-content:center;
+}
+.state1{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state2{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state3{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+.states-row2{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state4{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state5{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state6{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row3{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state7{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state8{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state9{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row4{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state10{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state11{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state12{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row5{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state13{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state14{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state15{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row6{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state16{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state17{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state18{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row7{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state19{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state20{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state21{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row8{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state22{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state23{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state24{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row9{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state25{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state26{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state27{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row10{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state28{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state29{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state30{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row11{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state31{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state32{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state33{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row12{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state34{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state35{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state36{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row13{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state37{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state38{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state39{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row14{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state40{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state41{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state42{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row15{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state43{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state44{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state45{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row16{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state46{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state47{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state48{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row17{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state49{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state50{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state51{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row18{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state52{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state53{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state54{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row19{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state55{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state56{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state57{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row20{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state58{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state59{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state60{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row21{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state61{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state62{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state63{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row22{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state64{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state65{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state66{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row23{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state67{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state68{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state69{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row24{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state70{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state71{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state72{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row25{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state73{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state74{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state75{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row26{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state76{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state77{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state78{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row27{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state79{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state80{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state81{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.states-row28{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.state82{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state83{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.state84{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.text h1{
+    margin-top: 60px;
+    margin-left:220px;
+}
+.country-row1{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country1{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country2{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country3{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row2{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country4{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country5{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country6{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row3{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country7{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country8{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country9{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row4{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country10{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country11{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country12{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row5{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country13{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country14{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country15{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row6{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country16{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country17{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country18{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row7{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.country19{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country20{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country21{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country-row8{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:center;
+}
+.country22{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country23{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.country24{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 24px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 12.8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+
+}
+.row1 img{
+    width: 10%;
+    margin-top: 70px;
+    margin-right: 550px;
+}
+.option{
+    margin-top: 70px;
+}
+.option select{
+    font-size: 18px;
+    margin-left: 20px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+}
+
+.foot-panel2{
+    background-color: rgb(248, 248, 248);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ul{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+ul a{
+
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #696969;
+}
